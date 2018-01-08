@@ -1,6 +1,7 @@
 package lib;
 
 import java.sql.*;
+import java.sql.Connection;
 
 /**
  * <p>
@@ -20,7 +21,7 @@ import java.sql.*;
  * @version 2016-01-24
  */
 public class DatabaseConnector{
-  private Connection connection;  
+  private Connection connection;
   private QueryResult currentQueryResult = null;
   private String message = null;
 
