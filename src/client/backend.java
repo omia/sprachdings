@@ -28,7 +28,7 @@ public void backendProcessMessage (String pMessage){}
 
 public void sendMessage(String pToUser, String pFromUser , String pMessage ){
 
-    String mMessage = "Message"+'\r' + pToUser + '\r' +  pFromUser + '\r' +  ;
+    String mMessage = "Message"+'\r' + pToUser + '\r' +  pFromUser + '\r' ;
     mCon.send(mMessage);
 }
 
