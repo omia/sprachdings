@@ -27,6 +27,7 @@ public class Chatfenster extends JFrame {
   private JTextField jTextField1 = new JTextField();
   private JTextField jTextField2 = new JTextField();
   private JButton bNicknameAndern = new JButton();
+
   // Ende Attribute
   
   public Chatfenster() { 
@@ -60,8 +61,6 @@ public class Chatfenster extends JFrame {
     lPrivaterChatmit.setFont(new Font("Dialog", Font.BOLD, 12));
     lPrivaterChatmit.setForeground(Color.WHITE);
     cp.add(lPrivaterChatmit);
-    jTextArea1ScrollPane.setBounds(12, 145, 300, 300);
-    jTextArea2ScrollPane.setBounds(326, 145, 300, 300);
     lServer.setBounds(16, 16, 110, 20);
     lServer.setText("Server:");
     lServer.setFont(new Font("Dialog", Font.BOLD, 12));

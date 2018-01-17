@@ -48,13 +48,11 @@ public class GUI_NutzerAnlegen extends JFrame {
     cp.add(lUsername);
     lNickname.setBounds(8, 40, 110, 20);
     lNickname.setText("Nickname");
-    lNickname.setDisplayedMnemonicIndex(KeyEvent.VK_0);
     lNickname.setForeground(Color.WHITE);
     lNickname.setFont(new Font("Dialog", Font.BOLD, 12));
     cp.add(lNickname);
     lPasswort.setBounds(8, 72, 110, 20);
     lPasswort.setText("Passwort");
-    lPasswort.setDisplayedMnemonicIndex(KeyEvent.VK_0);
     lPasswort.setEnabled(true);
     lPasswort.setFont(new Font("Dialog", Font.BOLD, 12));
     lPasswort.setForeground(Color.WHITE);
@@ -85,7 +83,6 @@ public class GUI_NutzerAnlegen extends JFrame {
         jButton1_ActionPerformed(evt);
       }
     });
-    jButton1.setEditable(true);
     jButton1.setEnabled(true);
     jButton1.setFont(new Font("Dialog", Font.PLAIN, 12));
     jButton1.setForeground(Color.WHITE);
