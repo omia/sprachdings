@@ -3,10 +3,10 @@ package lib; /**
  * Materialien zu den zentralen NRW-Abiturpruefungen im Fach Informatik ab 2018
  * </p>
  * <p>
- * Klasse Connection
+ * Klasse Connection_Abi
  * </p>
  * <p>
- * Objekte der Klasse Connection ermoeglichen eine Netzwerkverbindung zu einem
+ * Objekte der Klasse Connection_Abi ermoeglichen eine Netzwerkverbindung zu einem
  * Server mittels TCP/IP-Protokoll. Nach Verbindungsaufbau koennen Zeichenketten
  * (Strings) zum Server gesendet und von diesem empfangen werden. Zur
  * Vereinfachung geschieht dies zeilenweise, d. h., beim Senden einer
@@ -24,13 +24,13 @@ package lib; /**
 import java.net.*;
 import java.io.*;
 
-public class Connection
+public class Connection_Abi
 {
     private Socket socket;
     private BufferedReader fromServer;
     private PrintWriter toServer;
 
-    public Connection(String pServerIP, int pServerPort)
+    public Connection_Abi(String pServerIP, int pServerPort)
     {       
         try
         {

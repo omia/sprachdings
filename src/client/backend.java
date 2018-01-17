@@ -1,7 +1,6 @@
 package client;
 
 import lib.Client;
-import lib.Connection;
 
 public class backend {
 
