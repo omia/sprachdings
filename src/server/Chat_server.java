@@ -45,13 +45,16 @@ public class Chat_server extends Server {
     private void login(String[] input,String pClientIP, int pClientPort){
         databaseConnector.executeStatement("select password from user where username='"+input[1]+"'");
         if (databaseConnector.getCurrentQueryResult().getData()[0][0].equals(input[2])){
-
+            databaseConnector.executeStatement("select nick");
+            //clientList.append(new Con_Client(pClientIP,pClientPort,0,));
         }
     }
 
     private void register(String[] input,String pClientIP, int pClientPort){}
 
-    private void sendmessageglobal(String[] input,String pClientIP, int pClientPort){}
+    private void sendmessageglobal(String[] input,String pClientIP, int pClientPort){
+
+    }
 
     private void sendmessageprivate(String[] input,String pClientIP, int pClientPort){}
 
