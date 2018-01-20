@@ -1,11 +1,11 @@
-object GUI_NutzerAnlegen: TFGUIForm
-  Left = 368
-  Top = 179
+object ConnectToServer: TFGUIForm
+  Left = 324
+  Top = 163
   BorderIcons = [biSystemMenu]
-  Caption = 'Sprachdings Nutzer Erstellen'
-  ClientHeight = 149
+  Caption = 'ConnectToServer'
+  ClientHeight = 209
   ClientWidth = 284
-  Color = 4210752
+  Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -10
@@ -14,6 +14,7 @@ object GUI_NutzerAnlegen: TFGUIForm
   FormStyle = fsStayOnTop
   OldCreateOrder = True
   Position = poDesigned
+  ShowHint = True
   Visible = True
   OnClose = FormClose
   OnCloseQuery = FormCloseQuery
@@ -21,10 +22,10 @@ object GUI_NutzerAnlegen: TFGUIForm
   FrameType = 5
   Resizable = False
   Undecorated = False
-  Background = 4210752
+  Background = clBtnFace
   PixelsPerInch = 96
   TextHeight = 13
-  object lUsername: TJLabel
+  object lServerIP: TJLabel
     Tag = 1
     Left = 8
     Top = 8
@@ -32,59 +33,13 @@ object GUI_NutzerAnlegen: TFGUIForm
     Height = 20
     Hint = 'jLabel1'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
+    Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Dialog'
     Font.Style = [fsBold]
-    Foreground = clWhite
+    Foreground = 3355443
     Background = clBtnFace
-    Text = 'username'
-    HorizontalAlignment = LEFT
-    VerticalAlignment = CENTER
-    HorizontalTextPosition = RIGHT
-    VerticalTextPosition = CENTER
-    IconTextGap = 4
-    DisplayedMnemonic = 0
-    DisplayedMnemonicIndex = 0
-  end
-  object lNickname: TJLabel
-    Tag = 1
-    Left = 8
-    Top = 40
-    Width = 110
-    Height = 20
-    Hint = 'jLabel2'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
-    Font.Height = -12
-    Font.Name = 'Dialog'
-    Font.Style = [fsBold]
-    Foreground = clWhite
-    Background = clBtnFace
-    Text = 'Nickname'
-    HorizontalAlignment = LEFT
-    VerticalAlignment = CENTER
-    HorizontalTextPosition = RIGHT
-    VerticalTextPosition = CENTER
-    IconTextGap = 4
-    DisplayedMnemonic = 0
-    DisplayedMnemonicIndex = 0
-  end
-  object lPasswort: TJLabel
-    Tag = 1
-    Left = 8
-    Top = 72
-    Width = 110
-    Height = 20
-    Hint = 'jLabel3'
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
-    Font.Height = -12
-    Font.Name = 'Dialog'
-    Font.Style = [fsBold]
-    Foreground = clWhite
-    Background = clBtnFace
-    Text = 'Passwort'
+    Text = 'Server IP'
     HorizontalAlignment = LEFT
     VerticalAlignment = CENTER
     HorizontalTextPosition = RIGHT
@@ -102,12 +57,12 @@ object GUI_NutzerAnlegen: TFGUIForm
     Cursor = crIBeam
     Hint = 'jTextField1'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
+    Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Dialog'
     Font.Style = []
-    Foreground = clWhite
-    Background = clGray
+    Foreground = 3355443
+    Background = clWhite
     HorizontalAlignment = LEFT
     Text = ''
     Editable = True
@@ -121,56 +76,81 @@ object GUI_NutzerAnlegen: TFGUIForm
     Cursor = crIBeam
     Hint = 'jTextField2'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
+    Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Dialog'
     Font.Style = []
-    Foreground = clWhite
-    Background = clGray
+    Foreground = 3355443
+    Background = clWhite
     HorizontalAlignment = LEFT
     Text = ''
     Editable = True
   end
-  object jPasswordField1: TJPasswordField
-    Tag = 26
-    Left = 128
-    Top = 72
-    Width = 150
+  object lServerPort: TJLabel
+    Tag = 1
+    Left = 8
+    Top = 40
+    Width = 110
     Height = 20
-    Cursor = crIBeam
-    Hint = 'jPasswordField1'
+    Hint = 'jLabel1'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
+    Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Dialog'
-    Font.Style = []
-    Foreground = clWhite
-    Background = clGray
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clBtnFace
+    Text = 'Server Port'
     HorizontalAlignment = LEFT
-    Text = ''
-    Editable = True
-    EchoChar = '*'
+    VerticalAlignment = CENTER
+    HorizontalTextPosition = RIGHT
+    VerticalTextPosition = CENTER
+    IconTextGap = 4
+    DisplayedMnemonic = 0
+    DisplayedMnemonicIndex = 0
   end
-  object jButton1: TJButton
+  object jTextArea1: TJTextArea
+    Tag = 3
+    Left = 8
+    Top = 96
+    Width = 272
+    Height = 100
+    Cursor = crIBeam
+    Hint = 'jTextArea1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -12
+    Font.Name = 'Dialog'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = clWhite
+    LineWrap = False
+    HorizontalScrollBarPolicy = AS_NEEDED
+    VerticalScrollBarPolicy = AS_NEEDED
+    WrapStyleWord = False
+    TabSize = 8
+    Editable = True
+  end
+  object bConnect: TJButton
     Tag = 4
     Left = 8
-    Top = 104
-    Width = 267
+    Top = 64
+    Width = 272
     Height = 25
     Hint = 'jButton1'
     Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWhite
+    Font.Color = clWindowText
     Font.Height = -12
     Font.Name = 'Dialog'
-    Font.Style = []
-    Foreground = clWhite
-    Background = clGray
-    actionPerformed = 'jButton1_ActionPerformed'
-    Text = 'jButton1'
+    Font.Style = [fsBold]
+    Foreground = 3355443
+    Background = 15658734
+    actionPerformed = 'bConnect_ActionPerformed'
+    Text = 'Connect'
     Mnemonic = 0
     DisplayedMnemonicIndex = 0
     Selected = False
-    BorderPainted = False
+    BorderPainted = True
     FocusPainted = False
     ContentAreaFilled = True
     HorizontalAlignment = CENTER

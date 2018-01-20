@@ -2,5 +2,15 @@ package client;
 
 public class starter {
 
-    public static void main(String arg[]){}
-}
+    //Client_implemented mClient_implemented =
+
+    public static void main(String arg[]){
+        new starter();
+    }
+
+    public starter(){
+
+
+    }
+
+    }
