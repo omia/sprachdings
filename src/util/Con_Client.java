@@ -38,5 +38,13 @@ public class Con_Client {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public String getIp() {
+        return ip;
+    }
+
+    public int getPort() {
+        return port;
+    }
 }
 

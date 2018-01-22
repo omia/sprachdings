@@ -2,12 +2,6 @@ package util;
 
 public class parser {
 
-    public static void main(String[] args) {
-
-    } // end of main
-
-    public parser(){}
-
     public static String arrayToString(String[] a) {
         String s = "<begin>";
         for (int i =0 ;i < a.length;i++) s += "<" + i + ">" + a[i] + "</" + i + ">";
