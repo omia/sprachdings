@@ -4,10 +4,6 @@
     <list default="true" id="4e7d2032-7c90-4fdf-abf3-ca726862e0d6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Database.mdb" afterPath="$PROJECT_DIR$/Database.mdb" />
-      <change beforePath="$PROJECT_DIR$/src/server/Chat_server.java" afterPath="$PROJECT_DIR$/src/server/Chat_server.java" />
-      <change beforePath="$PROJECT_DIR$/src/util/Con_Client.java" afterPath="$PROJECT_DIR$/src/util/Con_Client.java" />
-      <change beforePath="$PROJECT_DIR$/src/util/parser.java" afterPath="$PROJECT_DIR$/src/util/parser.java" />
-      <change beforePath="$PROJECT_DIR$/test_client.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,48 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/parser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Chat_server.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/Chat_server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="163" column="14" lean-forward="false" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
+            <state relative-caret-position="17">
+              <caret line="109" column="77" lean-forward="true" selection-start-line="109" selection-start-column="77" selection-end-line="109" selection-end-column="77" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#882#883#0" expanded="true" />
                 <element signature="e#933#934#0" expanded="true" />
                 <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
                 <element signature="method#login#0;class#Chat_server#0" expanded="false" />
                 <element signature="method#register#0;class#Chat_server#0" expanded="false" />
                 <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#sendmessageprivate#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#openchat#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#createchat#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#addtochat#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#removefromChat#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#addtoFriendslist#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#removefromFriendslist#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#resend#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getusername#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getnick#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#changecolor#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#sendtoallconected#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#sendtousername#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getUsernamevonIPport#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getNickvonIPport#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getcolorfromIPport#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#changeNickfromIPport#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#removconbyIPport#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getIpfromUsername#0;class#Chat_server#0" expanded="false" />
-                <element signature="method#getPortfromUsername#0;class#Chat_server#0" expanded="false" />
+                <element signature="e#6926#6927#0" expanded="true" />
+                <element signature="e#6981#6982#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,7 +80,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1326" />
     <option name="height" value="1047" />
@@ -132,6 +101,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,10 +139,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,139 +158,6 @@
       <recent name="C:\Users\Werkstadt\IdeaProjects\sprachdings\src\client" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/starter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/util/parser.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Chat.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Chat.jfm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Client_implemented.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/ConnectToServer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/ConnectToServer.jfm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/CreateUser.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/CreateUser.jfm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/LoginToServer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/LoginToServer.jfm</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Chatfenster.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Chatfenster.jfm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Chatfenster.~ava</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/Chatfenster.~fm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_Login.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_Login.jfm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_Login.~ava</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_Login.~fm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.jfm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.~ava</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.~fm</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/client/backend.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -334,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreateUser">
+  <component name="RunManager" selected="Application.Chat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -342,12 +178,50 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="client.Chat" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sprachdings" />
+      <envs />
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="client.starter" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sprachdings" />
+      <envs />
+    </configuration>
+    <configuration name="ConnectToServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="client.ConnectToServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -364,6 +238,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="client.CreateUser" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="sprachdings" />
+      <envs />
+    </configuration>
+    <configuration name="LoginToServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="client.LoginToServer" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -470,15 +363,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Application.Client" />
       <item index="1" class="java.lang.String" itemvalue="Application.Server" />
       <item index="2" class="java.lang.String" itemvalue="JAR Application.Test_Client" />
       <item index="3" class="java.lang.String" itemvalue="Application.CreateUser" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LoginToServer" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ConnectToServer" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Chat" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.CreateUser" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.Chat" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConnectToServer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LoginToServer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CreateUser" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +400,9 @@
       <workItem from="1516179121024" duration="5420000" />
       <workItem from="1516355204358" duration="980000" />
       <workItem from="1516606299243" duration="122000" />
-      <workItem from="1516610268563" duration="6527000" />
+      <workItem from="1516610268563" duration="6571000" />
+      <workItem from="1516702902314" duration="399000" />
+      <workItem from="1516863690923" duration="213000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1516179540223</created>
@@ -524,30 +425,36 @@
       <option name="project" value="LOCAL" />
       <updated>1516355984424</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="func_up3">
+      <created>1516616880008</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1516616880008</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15748000" />
+    <option name="totallyTimeSpent" value="16404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1326" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21925133" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21822034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18167938" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -559,6 +466,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944915" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -573,7 +481,8 @@
     <MESSAGE value="Update" />
     <MESSAGE value="func_up" />
     <MESSAGE value="func_up2" />
-    <option name="LAST_COMMIT_MESSAGE" value="func_up2" />
+    <MESSAGE value="func_up3" />
+    <option name="LAST_COMMIT_MESSAGE" value="func_up3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,6 +491,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/server/Chat_server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
+            <element signature="method#login#0;class#Chat_server#0" expanded="false" />
+            <element signature="method#register#0;class#Chat_server#0" expanded="false" />
+            <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/Chat_server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#882#883#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
+            <element signature="method#login#0;class#Chat_server#0" expanded="false" />
+            <element signature="method#register#0;class#Chat_server#0" expanded="false" />
+            <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/util/parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -595,32 +548,15 @@
         <state relative-caret-position="272">
           <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
             <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
             <element signature="method#login#0;class#Chat_server#0" expanded="false" />
             <element signature="method#register#0;class#Chat_server#0" expanded="false" />
             <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendmessageprivate#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#openchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#createchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtochat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromChat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtoFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#resend#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getusername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getnick#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changecolor#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtoallconected#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtousername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getUsernamevonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getNickvonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getcolorfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changeNickfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removconbyIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getIpfromUsername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getPortfromUsername#0;class#Chat_server#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -638,32 +574,15 @@
         <state relative-caret-position="272">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
             <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
             <element signature="method#login#0;class#Chat_server#0" expanded="false" />
             <element signature="method#register#0;class#Chat_server#0" expanded="false" />
             <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendmessageprivate#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#openchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#createchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtochat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromChat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtoFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#resend#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getusername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getnick#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changecolor#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtoallconected#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtousername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getUsernamevonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getNickvonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getcolorfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changeNickfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removconbyIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getIpfromUsername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getPortfromUsername#0;class#Chat_server#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -676,53 +595,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Chatfenster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="3" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/Chatfenster.java" />
+    <entry file="file://$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.java" />
     <entry file="file://$PROJECT_DIR$/src/server/Chat_server.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
             <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
             <element signature="method#login#0;class#Chat_server#0" expanded="false" />
             <element signature="method#register#0;class#Chat_server#0" expanded="false" />
             <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendmessageprivate#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#openchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#createchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtochat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromChat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtoFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#resend#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getusername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getnick#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changecolor#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtoallconected#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtousername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getUsernamevonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getNickvonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getcolorfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changeNickfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removconbyIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getIpfromUsername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getPortfromUsername#0;class#Chat_server#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -742,14 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/backend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/backend.java" />
     <entry file="file://$PROJECT_DIR$/src/lib/DatabaseConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -871,14 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/backend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/backend.java" />
     <entry file="file://$PROJECT_DIR$/src/lib/DatabaseConnector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
@@ -886,22 +760,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="54" column="34" lean-forward="false" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/Chatfenster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="63" column="3" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="63" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/GUI_NutzerAnlegen.java" />
+    <entry file="file://$PROJECT_DIR$/src/client/Chatfenster.java" />
     <entry file="file://$PROJECT_DIR$/src/client/starter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -910,57 +770,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/parser.java">
+    <entry file="file://$PROJECT_DIR$/src/util/Con_Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Con_Client.java">
+    <entry file="file://$PROJECT_DIR$/src/util/parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding>
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="629">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/server/Chat_server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="163" column="14" lean-forward="false" selection-start-line="163" selection-start-column="14" selection-end-line="163" selection-end-column="14" />
+        <state relative-caret-position="17">
+          <caret line="109" column="77" lean-forward="true" selection-start-line="109" selection-start-column="77" selection-end-line="109" selection-end-column="77" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#882#883#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
             <element signature="method#aaa#0;class#Chat_server#0" expanded="false" />
             <element signature="method#login#0;class#Chat_server#0" expanded="false" />
             <element signature="method#register#0;class#Chat_server#0" expanded="false" />
             <element signature="method#sendmessageglobal#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendmessageprivate#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#openchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#createchat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtochat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromChat#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#addtoFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removefromFriendslist#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#resend#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getusername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getnick#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changecolor#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtoallconected#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#sendtousername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getUsernamevonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getNickvonIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getcolorfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#changeNickfromIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#removconbyIPport#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getIpfromUsername#0;class#Chat_server#0" expanded="false" />
-            <element signature="method#getPortfromUsername#0;class#Chat_server#0" expanded="false" />
+            <element signature="e#6926#6927#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
           </folding>
         </state>
       </provider>
