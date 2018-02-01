@@ -20,10 +20,12 @@ public class Chat_server extends Server {
 
     @Override
     public void processNewConnection(String pClientIP, int pClientPort) {
+        System.out.println("Verbindung von "+pClientIP+":"+pClientPort+" wird aufgebaut");
     }
 
     @Override
     public void processMessage(String pClientIP, int pClientPort, String pMessage) {
+        System.out.println("Message from"+pClientIP+":"+pClientPort+"("+getUsernamevonIPport(pClientIP,pClientPort)+")");
         String message[] = parser.StringtoArray(pMessage);
         aaa(message, pClientIP, pClientPort);
     }
@@ -90,17 +92,24 @@ public class Chat_server extends Server {
 
     private void login(String[] input, String pClientIP, int pClientPort) {
         databaseConnector.executeStatement("select password from user where username='" + input[1] + "'");
-        if (databaseConnector.getCurrentQueryResult().getData()[0][0].equals(input[2])) {
-            databaseConnector.executeStatement("select nick");
+        if (databaseConnector.getCurrentQueryResult().getData().length==0){
+            String message[] = new String[3];
+            message[0] = "LoginState";
+            message[1] = "false";
+            message[2] = "Dein Username existiert nicht";
+            send(pClientIP, pClientPort, parser.arrayToString(message));
+        }
+        else if (databaseConnector.getCurrentQueryResult().getData()[0][0].equals(input[2])) {
+            databaseConnector.executeStatement("select nick from user where username='" + input[1] + "'");
             String nick = databaseConnector.getCurrentQueryResult().getData()[0][0];
             clientList.append(new Con_Client(pClientIP, pClientPort, 0, nick));
-            String message[] = new String[2];
+            String message[] = new String[3];
             message[0] = "LoginState";
             message[1] = "true";
             message[2] = "Login erfolgreich";
             send(pClientIP, pClientPort, parser.arrayToString(message));
         } else {
-            String message[] = new String[2];
+            String message[] = new String[3];
             message[0] = "LoginState";
             message[1] = "false";
             message[2] = "Username oder Password falsch";
@@ -110,35 +119,26 @@ public class Chat_server extends Server {
     private void register(String[] input, String pClientIP, int pClientPort) {
         databaseConnector.executeStatement("Select Username from User where USERNAME='" + input[1] + "'");
         if (databaseConnector.getCurrentQueryResult().getData()[0][0] != null) {
-            String message[] = new String[2];
+            String message[] = new String[3];
             message[0] = "error";
             message[1] = "register_error";
             message[2] = "Nutzername vergeben";
             send(pClientIP, pClientPort, parser.arrayToString(message));
-        } else {
-            databaseConnector.executeStatement("select Nickname from User where Nickname='" + input[3] + "'");
-            if (databaseConnector.getCurrentQueryResult().getData()[0][0] != null) {
-                String message[] = new String[2];
-                message[0] = "error";
-                message[1] = "register_error";
-                message[2] = "Nick vergeben";
-                send(pClientIP, pClientPort, parser.arrayToString(message));
             } else {
-                databaseConnector.executeStatement("insert into user (username,password,Nickname) values(" + input[1] + "," + input[2] + "," + input[3] + ")");
-                String message[] = new String[2];
+                databaseConnector.executeStatement("insert into user (username,password,Nickname,Farbe) values(" + input[1] + "," + input[2] + "," + input[3] + ",'#000000)");
+                String message[] = new String[3];
                 message[0] = "LoginState";
                 message[1] = "true";
                 message[2] = "register erfolgreich";
                 send(pClientIP, pClientPort, parser.arrayToString(message));
             }
         }
-    }
     private void sendmessageglobal(String[] input, String pClientIP, int pClientPort) {
         long times = Instant.now().getEpochSecond();
         databaseConnector.executeStatement("insert into chatverlauf (von,zu,Nachricht,zeit) values(" + input[1] + ",alle," + input[2] + "," + times + ")");
-        String message[] = new String[4];
+        String message[] = new String[5];
         message[0] = "SendMessageGlobal";
-        message[1] = getNickvonIPport(pClientIP, pClientPort);
+        message[1] = getUsernamevonIPport(pClientIP, pClientPort);
         message[2] = input[2];
         message[3] = String.valueOf(times);
         message[4] = getcolorfromIPport(pClientIP, pClientPort);
@@ -147,7 +147,7 @@ public class Chat_server extends Server {
     private void sendmessageprivate(String[] input, String pClientIP, int pClientPort) {
         long times = Instant.now().getEpochSecond();
         databaseConnector.executeStatement("insert into chatverlauf (von,zu,Nachricht,zeit) values(" + input[1] + "," + input[2] + "," + input[3] + "," + times + ")");
-        String message[] = new String[4];
+        String message[] = new String[5];
         message[0] = "SendMessagePrivate";
         message[1] = getUsernamevonIPport(pClientIP, pClientPort);
         message[2] = input[3];
@@ -161,7 +161,8 @@ public class Chat_server extends Server {
     private void changenickname(String[] input, String pClientIP, int pClientPort) {
         databaseConnector.executeStatement("update user set NIckname='"+input[1]+"' where username='"+getUsernamevonIPport(pClientIP,pClientPort)+"'");
         databaseConnector.executeStatement("");
-        //todo
+        changeNickfromIPport(pClientIP,pClientPort,input[1]);
+
     }
     private void openchat(String[] input, String pClientIP, int pClientPort) {
     }
@@ -176,10 +177,18 @@ public class Chat_server extends Server {
     private void removefromFriendslist(String[] input, String pClientIP, int pClientPort) {
     }
     private void resend(String[] input, String pClientIP, int pClientPort) {
+        switch (input[1]){
+            //case
+        }
     }
     private void getusername(String[] input, String pClientIP, int pClientPort) {
     }
     private void getnick(String[] input, String pClientIP, int pClientPort) {
+        String message[] = new String[3];
+        message[0] = "sendNick";
+        message[1] = input[1];
+        message[2] = getNickfromUser(input[1]);
+        send(pClientIP, pClientPort, parser.arrayToString(message));
     }
     private void changecolor(String[] input, String pClientIP, int pClientPort) {
     }
@@ -273,5 +282,9 @@ public class Chat_server extends Server {
             clientList.next();
         }
         return -1;
+    }
+    private String getNickfromUser(String User){
+        databaseConnector.executeStatement("select nick from user where username='" + User + "'");
+        return databaseConnector.getCurrentQueryResult().getData()[0][0];
     }
 }
